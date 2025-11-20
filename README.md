@@ -34,6 +34,10 @@ Open Immersive Translate 开源的沉浸式翻译。
 | Edge | [Edge 应用商店](https://microsoftedge.microsoft.com/addons/detail/%E6%B5%81%E7%95%85%E9%98%85%E8%AF%BB/kakgmllfpjldjhcnkghpplmlbnmcoflp?hl=zh-CN) |
 | Firefox | [Firefox 附加组件商店](https://addons.mozilla.org/zh-CN/firefox/addon/%E6%B5%81%E7%95%85%E9%98%85%E8%AF%BB/) |
 
+### 从源码构建
+
+如果你想从源码构建和安装本扩展，请参考 [构建指南](BUILD.md)。
+
 ## 📖 使用文档
 
 请直接访问 [流畅阅读官方文档](https://fluent.thinkstu.com/) 获取详细的：
