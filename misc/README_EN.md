@@ -30,6 +30,10 @@ A revolutionary open-source browser translation plugin that provides everyone wi
 | Edge | [Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/detail/%E6%B5%81%E7%95%85%E9%98%85%E8%AF%BB/kakgmllfpjldjhcnkghpplmlbnmcoflp?hl=zh-CN) |
 | Firefox | [Firefox Add-ons Store](https://addons.mozilla.org/zh-CN/firefox/addon/%E6%B5%81%E7%95%85%E9%98%85%E8%AF%BB/) |
 
+### Build from Source
+
+If you want to build and install the extension from source, please refer to the [Build Guide](../BUILD.md).
+
 ## 📖 Documentation
 
 Please visit [FluentRead Official Documentation](https://fluent.thinkstu.com/) for detailed:
