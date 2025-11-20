@@ -3,9 +3,9 @@ import {services} from "../utils/option";
 import {config} from "@/entrypoints/utils/config";
 
 async function deeplx(message: any) {
-    // deeplx 不支持 zh-Hans，需要转换为 zh
-    let targetLang = config.to === 'zh-Hans' ? 'zh' : config.to;
-    let sourceLang = config.from === 'auto' ? 'auto' : config.from;
+    // deeplx 不支持 zh-Hans 和 zh-Hant，需要转换为 zh
+    let targetLang = config.to === 'zh-Hans' || config.to === 'zh-Hant' ? 'zh' : config.to;
+    let sourceLang = config.from === 'auto' ? 'auto' : config.from === 'zh-Hans' || config.from === 'zh-Hant' ? 'zh' : config.from;
     
     // 判断是否使用代理或自定义URL
     let url: string = config.proxy[config.service] ? config.proxy[config.service] : config.deeplx || 'http://localhost:1188/translate';
